@@ -15,6 +15,10 @@
 		841EB96524985508005FE9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EB96324985508005FE9E1 /* LaunchScreen.storyboard */; };
 		841EB97024985508005FE9E1 /* youtube_onedaybuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB96F24985508005FE9E1 /* youtube_onedaybuildTests.swift */; };
 		841EB97B24985508005FE9E1 /* youtube_onedaybuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB97A24985508005FE9E1 /* youtube_onedaybuildUITests.swift */; };
+		841EB989249867C3005FE9E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB988249867C3005FE9E1 /* Constants.swift */; };
+		841EB98B24986A0B005FE9E1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB98A24986A0B005FE9E1 /* Video.swift */; };
+		841EB98D24986A4C005FE9E1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EB98C24986A4C005FE9E1 /* Model.swift */; };
+		845EFBB324989FC800A09B67 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845EFBB224989FC800A09B67 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		841EB97624985508005FE9E1 /* youtube-onedaybuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "youtube-onedaybuildUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841EB97A24985508005FE9E1 /* youtube_onedaybuildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_onedaybuildUITests.swift; sourceTree = "<group>"; };
 		841EB97C24985508005FE9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841EB988249867C3005FE9E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		841EB98A24986A0B005FE9E1 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		841EB98C24986A4C005FE9E1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		845EFBB224989FC800A09B67 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				841EB95824985503005FE9E1 /* AppDelegate.swift */,
 				841EB95A24985503005FE9E1 /* SceneDelegate.swift */,
 				841EB95C24985503005FE9E1 /* ViewController.swift */,
+				841EB988249867C3005FE9E1 /* Constants.swift */,
+				841EB98A24986A0B005FE9E1 /* Video.swift */,
+				841EB98C24986A4C005FE9E1 /* Model.swift */,
+				845EFBB224989FC800A09B67 /* Response.swift */,
 				841EB95E24985503005FE9E1 /* Main.storyboard */,
 				841EB96124985508005FE9E1 /* Assets.xcassets */,
 				841EB96324985508005FE9E1 /* LaunchScreen.storyboard */,
@@ -262,6 +274,10 @@
 				841EB95D24985503005FE9E1 /* ViewController.swift in Sources */,
 				841EB95924985503005FE9E1 /* AppDelegate.swift in Sources */,
 				841EB95B24985503005FE9E1 /* SceneDelegate.swift in Sources */,
+				841EB98D24986A4C005FE9E1 /* Model.swift in Sources */,
+				841EB989249867C3005FE9E1 /* Constants.swift in Sources */,
+				841EB98B24986A0B005FE9E1 /* Video.swift in Sources */,
+				845EFBB324989FC800A09B67 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "youtube-onedaybuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wkdj.com.youtube-onedaybuild";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "youtube-onedaybuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wkdj.com.youtube-onedaybuild";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
